@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="netty-3.6.2.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/netty-3.6.2.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/postgresql-9.2-1002.jdbc3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

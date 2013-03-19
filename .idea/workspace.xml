@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a108acb6-c843-4349-86c5-ee615efe100a" name="Default" comment="" />
+    <ignored path="SimGameServer.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/MessagesProtos.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359470830260" ignored="false" />
+    <file path="/messages.proto" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359726336665" ignored="false" />
+    <file path="/Type.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359729280539" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_server/server/ChannelHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367721172" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/client/UserWorkerThread.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367833215" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/common/net/IncomingMessageHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367667551" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/client/ChannelHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367721172" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/net/handlers/game/NewGameRequestHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367721172" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/net/handlers/game/InterruptHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367721172" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/client/Player.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367680227" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_server/database/DBRequestExecutor.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367680228" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/common/utils/Logger.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367812207" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_server/database/DBHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367680228" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/net/structure/ProtoFactory.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367812207" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/net/handlers/game/UpdateHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367721172" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/net/handlers/connection/LogoutHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367721172" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/net/handlers/IncomingMessageHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367721172" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/net/handlers/connection/LoginHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367721172" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_server/server/ServerPipelineFactory.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367741525" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/client/PacketDecoder.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367812207" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/client/ClientPipelineFactory.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367741525" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/client/PacketEncoder.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367812207" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/net/protobuf/MessagesProtos.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367794428" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/common/protocol/structure/Type.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367791959" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/net/structure/Type.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367812207" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_server/net/ProtoFactory.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367812207" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/net/structure/PacketStructure.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367812207" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/game_client/net/structure/Envelope.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367812207" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/utils/Logger.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359545183108" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/utils/DateUtils.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367833215" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/structure/Type.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359729307310" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/game/UpdateHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359539567754" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/structure/PacketStructure.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367863248" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/game/NewGameRequestHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367863248" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/structure/Envelope.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/game/InterruptHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367863248" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/protobuf/MessagesProtos.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359729168372" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/connection/LogoutHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/connection/LoginHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359371463474" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/structure/ProtoFactory.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359729838242" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/UserWorkerThread.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544715809" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/listeners/CanvasEventListener.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359658237502" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/Player.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367863248" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/elements/VertexCoordinateCreator.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359651708071" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/elements/Link.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359642408523" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/IncomingMessageHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/elements/GraphVertex.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359651655186" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/elements/Colors.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359548292545" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/PacketDecoder.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359379658601" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/MainFrame.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359674420259" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/Canvas.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359651001458" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/Mediator.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359371444520" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/Data.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367863248" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/ClientPipelineFactory.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359452518170" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/Client.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359548112321" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/PacketEncoder.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367863248" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/ChannelHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359452639114" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/authorisation/AuthorisationInfo.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359367863248" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/authorisation/AuthorisationDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359380198213" ignored="false" />
+    <file path="/ChannelHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359727274591" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/game/GameConfigHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359446301052" ignored="false" />
+    <file path="/GameConfigHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359463493726" ignored="false" />
+    <file path="/fragment.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359647896653" ignored="false" />
+    <file path="/Mediator.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359733859912" ignored="false" />
+    <file path="/CanvasEventListener.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359656107573" ignored="false" />
+    <file path="/Logger.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360938014995" ignored="false" />
+    <file path="/UserWorkerThread.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359727409085" ignored="false" />
+    <file path="/PacketDecoder.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359379598974" ignored="false" />
+    <file path="/ProtoFactory.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359729396523" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/connection/AuthorisationHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359674359163" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/connection/InterruptHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359733988172" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/game/ResultHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359730188981" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/connection/ContinueGameHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359672596226" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/config/GameConfig.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359634265806" ignored="false" />
+    <file path="/GameConfig.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359734185572" ignored="false" />
+    <file path="/Client.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359463675566" ignored="false" />
+    <file path="/AuthorisationDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359658059376" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/dialogs/AuthorisationInfo.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359380254560" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/dialogs/AuthorisationDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544715809" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/entity/Player.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359642324585" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/data/Mediator.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544628016" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/data/Data.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359540128498" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/data/InnerMessage.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359381016143" ignored="false" />
+    <file path="/InnerMessage.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359657986096" ignored="false" />
+    <file path="/ClientPipelineFactory.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359447471925" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/Connection.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359388932787" ignored="false" />
+    <file path="/Connection.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359388932787" ignored="false" />
+    <file path="/MainFrame.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1362664787951" ignored="false" />
+    <file path="/DBHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359727495383" ignored="false" />
+    <file path="/LoginHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359477267894" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/WorkerHolder.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359406634768" ignored="false" />
+    <file path="/WorkerHolder.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359406628699" ignored="false" />
+    <file path="/Player.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359545259434" ignored="false" />
+    <file path="/AuthorisationHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359732800314" ignored="false" />
+    <file path="/Server.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359468875743" ignored="false" />
+    <file path="/ServerPipelineFactory.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359468933194" ignored="false" />
+    <file path="/ContinueGameHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359672796250" ignored="false" />
+    <file path="/InterruptHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359733978078" ignored="false" />
+    <file path="/UpdateHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359540125214" ignored="false" />
+    <file path="/ResultHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359729958265" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/connection/GameConfigHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544715809" ignored="false" />
+    <file path="/Data.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359539947188" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/ConnectListener.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359452625790" ignored="false" />
+    <file path="/ConnectListener.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359456146169" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/connectionEvent.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359449914292" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/ConnectionEvent.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359451887675" ignored="false" />
+    <file path="/ConnectionEvent.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359452819374" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/ClientPipeline.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359450962823" ignored="false" />
+    <file path="/ClientPipeline.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359450919139" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/ConnectionEventObject.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359451888354" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/connection/ConnectionEventObject.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359452819374" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/connection/ConnectListener.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359452631861" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/connection/ConnectionListener.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="/ConnectionListener.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359461950646" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/client/Application.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359456227827" ignored="false" />
+    <file path="/Application.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359456224534" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/dialogs/ConnectionInfoWindow.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359458485742" ignored="false" />
+    <file path="/ConnectionInfoWindow.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359458468869" ignored="false" />
+    <file path="/GameAndPlayerHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359475210763" ignored="false" />
+    <file path="/GameTable.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359732010189" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/connection/StartGameHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359550916430" ignored="false" />
+    <file path="/StartGameHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359550959736" ignored="false" />
+    <file path="/PlayerTurnHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359726762966" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/game/NewTurnHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359729481459" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/data/GraphicalElementStorage.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544552922" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/GraphicalElementStorage.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359562645632" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/interaction/InnerMessage.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359657991583" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/interaction/Mediator.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359733867287" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/FieldSet.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/DynamicMessage.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/ByteString.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/CodedInputStream.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/CodedOutputStream.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/SingleFieldBuilder.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/MessageLite.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/LiteralByteString.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/Parser.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/RepeatedFieldBuilder.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/RopeByteString.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/UnknownFieldSet.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/com/google/protobuf/ExtensionRegistry.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544716152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/dialogs/ConnectionInfoWindow.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359544736201" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/dialogs/AuthorisationDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359658060112" ignored="false" />
+    <file path="/Canvas.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359650607916" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/connection/StartNewGameHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359674487904" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/connection/PartnerConnectionHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359674470893" ignored="false" />
+    <file path="/PartnerConnectionHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359674460895" ignored="false" />
+    <file path="/NewTurnHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359674429884" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/dialogs/GameResultDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359560219440" ignored="false" />
+    <file path="/GameResultDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359560011476" ignored="false" />
+    <file path="/ConnectOrCreateGame.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359566294967" ignored="false" />
+    <file path="/NewGameRequestHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359668089540" ignored="false" />
+    <file path="/GraphicalElementStorage.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359562754537" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/GraphicalElementKeeper.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359651698239" ignored="false" />
+    <file path="/GraphicalElementKeeper.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359650972930" ignored="false" />
+    <file path="/StartNewGameHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359674484857" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/dialogs/PartnerDisconnectDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359658312563" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/dialogs/InterruptGameDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359567267098" ignored="false" />
+    <file path="/InterruptGameDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359567519402" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/dialogs/PauseDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359567781856" ignored="false" />
+    <file path="/PauseDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359567411745" ignored="false" />
+    <file path="/VertexCoordinateCreator.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359651451394" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/vcs.xml" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359638791244" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359674492859" ignored="false" />
+    <file path="/DBConnectionConfig.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359639058178" ignored="false" />
+    <file path="/GraphVertex.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359651655186" ignored="false" />
+    <file path="/Link.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360940188824" ignored="false" />
+    <file path="$PROJECT_DIR$/../GSA/src/redactor/gui/graphicalElements/OperationalVertex.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359648947835" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/InfoArea.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359652625428" ignored="false" />
+    <file path="/InfoArea.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359652622314" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/dialogs/PartnerFoundDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359658692046" ignored="false" />
+    <file path="/PartnerFoundDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359658428795" ignored="false" />
+    <file path="/LogoutHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359707442456" ignored="false" />
+    <file path="/PartnerInfoRequestHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359670288360" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/dialogs/PlayerScoreDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359664583079" ignored="false" />
+    <file path="/PlayerScoreDialog.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359664553759" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/gui/actions.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359666702006" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/game/PartnerInfoHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359671697101" ignored="false" />
+    <file path="/PartnerInfoHandler.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359671695209" ignored="false" />
+    <file path="/GameKeeper.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359724833992" ignored="false" />
+    <file path="$PROJECT_DIR$/../SimGameClient/src/net/handlers/connection/LoginFromAnotherPlace.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359730907378" ignored="false" />
+    <file path="/LoginFromAnotherPlace.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1359730901378" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourse/src/gui/elements/Connector.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360940395916" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourse/src/utils/Logger.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360938016837" ignored="false" />
+    <file path="/Connector.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360940394056" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourse/src/gui/elements/GraphicalElement.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360941371588" ignored="false" />
+    <file path="/GraphicalElement.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360941369692" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourse/src/gui/elements/ElementTypeName.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360940750665" ignored="false" />
+    <file path="/ElementTypeName.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360939996021" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourse/src/gui/elements/connection/Link.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360940192129" ignored="false" />
+    <file path="/And2.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360940740357" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourse/src/gui/elements/logical/and/And2.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360940750665" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourse/src/gui/listeners/CanvasMouseListener.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360940977466" ignored="false" />
+    <file path="/CanvasMouseListener.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360940958070" ignored="false" />
+    <file path="/CanvasMouseMotionListener.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360941164725" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourse/src/gui/listeners/CanvasMouseMotionListener.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360941167642" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourse/src/gui/elements/GraphicalElementFactory.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1360941260730" ignored="false" />
+    <file path="$PROJECT_DIR$/../MashaDiploma/src/gui/window/Message.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1362664829782" ignored="false" />
+    <file path="/Message.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1362664782029" ignored="false" />
+    <file path="$PROJECT_DIR$/../MashaDiploma/src/gui/window/MainFrame.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1362664893747" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourseMasha/src/synthesis/MistakeType.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1362997426812" ignored="false" />
+    <file path="/MistakeType.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1362996586450" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourseMasha/src/gui/elements/element/Element.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1362996479107" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourseMasha/src/synthesis/syntesis20000/DAlgo.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1362997426812" ignored="false" />
+    <file path="$PROJECT_DIR$/../TPCScourseMasha/src/synthesis/CubeType.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1362996479107" ignored="false" />
+    <file path="/DAlgo.java" changelist="a108acb6-c843-4349-86c5-ee615efe100a" time="1362997369532" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SimGameServer" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AuthorisationHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/handlers/connection/AuthorisationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="0" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logger.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="31" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewGameRequestHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/handlers/game/NewGameRequestHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="35" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameTable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/GameTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="87" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Type.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/structure/Type.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="11" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.32789317">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessagesProtos.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/protobuf/MessagesProtos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="20" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProtoFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/structure/ProtoFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="13" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.proto" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/protobuf/messages.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="12" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/DBHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="29" selection-start="3353" selection-end="3353" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="HgRememberedInputs">
+    <option name="repositoryUrls">
+      <list>
+        <option value="https://pikacode.com/Freil/sim/" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/net/structure/ProtoFactory.java" />
+        <option value="$PROJECT_DIR$/src/data/GameKeeper.java" />
+        <option value="$PROJECT_DIR$/src/net/protobuf/messages.proto" />
+        <option value="$PROJECT_DIR$/src/net/handlers/game/PlayerTurnHandler.java" />
+        <option value="$PROJECT_DIR$/src/net/handlers/game/PartnerInfoRequestHandler.java" />
+        <option value="$PROJECT_DIR$/src/net/handlers/connection/ContinueGameHandler.java" />
+        <option value="$PROJECT_DIR$/src/net/handlers/connection/InterruptHandler.java" />
+        <option value="$PROJECT_DIR$/src/net/handlers/connection/LogoutHandler.java" />
+        <option value="$PROJECT_DIR$/src/net/handlers/game/NewGameRequestHandler.java" />
+        <option value="$PROJECT_DIR$/src/server/ChannelHandler.java" />
+        <option value="$PROJECT_DIR$/src/server/UserWorkerThread.java" />
+        <option value="$PROJECT_DIR$/src/database/DBHandler.java" />
+        <option value="$PROJECT_DIR$/src/net/structure/Type.java" />
+        <option value="$PROJECT_DIR$/src/data/GameTable.java" />
+        <option value="$PROJECT_DIR$/src/net/handlers/connection/AuthorisationHandler.java" />
+        <option value="$PROJECT_DIR$/src/config/GameConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-13" />
+    <option name="y" value="3" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimGameServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimGameServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimGameServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimGameServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimGameServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimGameServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimGameServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimGameServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimGameServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protobuf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimGameServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimGameServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sasha" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\SimGameServer\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration default="false" name="Server" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SimGameServer" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Server" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a108acb6-c843-4349-86c5-ee615efe100a" name="Default" comment="" />
+      <created>1359365262034</created>
+      <updated>1359365262034</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-13" y="3" width="1616" height="876" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53268427" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21001391" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23230374" sideWeight="0.69958276" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30041724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/net/handlers/game/PartnerInfoRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="31" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/handlers/connection/ContinueGameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/handlers/connection/InterruptHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/handlers/connection/LogoutHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="41" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/ChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="66" selection-start="947" selection-end="947" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/UserWorkerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="67" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/DBHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="29" selection-start="3353" selection-end="3353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/structure/ProtoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/protobuf/messages.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="12" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/GameTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="87" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/handlers/game/NewGameRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="35" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/handlers/connection/AuthorisationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/GameConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="51" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/protobuf/MessagesProtos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/structure/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="11" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.32789317">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SimGameServer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>netty-3.6.2.Final</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
