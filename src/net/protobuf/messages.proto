@@ -1,0 +1,101 @@
+package protocol;
+
+option java_package = "net";
+option java_outer_classname = "MessagesProtos";
+
+/////////////////////from client///////////////////
+
+message CAuthRequest{
+    required string name = 1;
+    required string password = 2;
+}
+
+message CRequestNewGame{
+    optional bool nothing = 1;
+}
+
+message CNewTurn{
+    required int32 vertexNumberFrom = 1;
+    required int32 vertexNumberTo = 2;
+}
+
+message CPartnerInfoRequest{
+    optional bool nothing = 1;
+}
+
+message CLogout{
+    optional bool nothing = 1;
+}
+
+
+
+
+//------------------------------------------------
+
+///////////////////both side//////////////////////
+
+message BInterruptGame{
+    required bool onlyPause = 1;    //if true, the game will be continued after pause.
+                                    //else stop current game, don't save results
+}
+
+message BContinueGame{
+    optional bool nothing = 1;
+}
+
+
+//------------------------------------------------
+
+/////////////////from server///////////////////////
+
+message SGameConfig{
+    required int32 vertexNumber = 1;
+}
+
+message SAuthorisation{
+    required bool isSuccessful = 1;     //if true another fields are not null
+    optional int32 playerId = 2;
+    optional int32 score = 3;
+}
+
+message SLoginFromAnotherClient{
+    optional bool nothing = 1;
+}
+
+message SNewGameRequestAnswer{
+    required bool startGame = 1;
+    optional bool firstTurnAccess = 2;
+}
+
+message SPartnerConnected{
+    optional bool nothing = 1;
+}
+
+
+message SNewTurn{
+    required int32 playerId = 1;
+    required int32 vertexNumberFrom = 2;
+    required int32 vertexNumberTo = 3;
+    required bool continueGame = 4;
+}
+
+
+message SGameResult{
+    optional int32 newScore = 1;
+    required int32 gameResult = 2;          // -1 - lose, 0 - draw, 1 - win
+    required int32 vertex1 = 3;
+    required int32 vertex2 = 4;
+    required int32 vertex3 = 5;
+}
+
+message SPartnerInfo{
+    required string name = 1;
+    required int32 score = 2;
+}
+
+
+
+
+
+
+
